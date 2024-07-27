@@ -1,0 +1,24 @@
+{
+  "name": "selfbot-spam-with-dchs",
+  "version": "0.1.0",
+  "description": "Simple selfbot project designed to automate spamming on Discord servers for 24 hours non-stop.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "fastify": "^4.21.0",
+    "eris": "^0.16.2",
+    "common-tags": "^1.8.2",
+    "dchs": "^0.0.9"
+  },
+  "engines": {
+    "node": "14.x"
+  },
+  "license": "MIT",
+  "keywords": [
+    "dchs",
+    "discord",
+    "selfbot"
+  ]
+}
